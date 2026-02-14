@@ -60,7 +60,7 @@ const TrendyPlants = () => {
                   <h4 className="text-2xl font-bold">Rs. 599/-</h4>
                   <div className="flex gap-4 justify-center md:justify-start pt-2">
                       <button className="border border-white/30 px-6 py-2 rounded-xl text-sm hover:bg-white hover:text-[#0d1f16] font-medium transition">
-                          Buy Now
+                          Explore
                       </button>
                       <button className="border border-white/30 p-2 rounded-xl hover:bg-white hover:text-[#0d1f16] transition">
                           <FiShoppingBag size={18} />
