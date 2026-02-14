@@ -17,7 +17,7 @@ const Navbar = () => {
       {/* Desktop Links */}
       <ul className="hidden md:flex gap-10 text-gray-300 text-sm font-medium">
         <li className="hover:text-white cursor-pointer transition">Home</li>
-        <li className="hover:text-white cursor-pointer flex items-center gap-1 transition">Plant Type's ▾</li>
+        <li className="hover:text-white cursor-pointer flex items-center gap-1 transition">Plant Type ▾</li>
         <li className="hover:text-white cursor-pointer transition">More</li>
         <li className="hover:text-white cursor-pointer transition">Contact</li>
       </ul>
