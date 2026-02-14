@@ -7,9 +7,11 @@
 body {
   background-color: #171F12; /* Updated Background Color */
   color: white;
-  font-family: 'Poppins', sans-serif;
+font-family: 'Inter', sans-serif;
   overflow-x: hidden;
 }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
