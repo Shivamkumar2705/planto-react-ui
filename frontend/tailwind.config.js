@@ -1,20 +1,19 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  darkMode: 'class',
+export default {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
-      keyframes: {
-        'pop-in': {
-          '0%': { opacity: 0, transform: 'scale(0.95)' },
-          '100%': { opacity: 1, transform: 'scale(1)' },
-        },
+      colors: {
+        primary: '#062316', // Deep dark green background
+        card: 'rgba(255, 255, 255, 0.05)', // Glass effect base
+        accent: '#C5CEB8', // Light greenish text
       },
-      animation: {
-        'pop-in': 'pop-in 0.3s cubic-bezier(0.4,0,0.2,1)'
-      },
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'], // You may need to import this font in index.css
+      }
     },
   },
   plugins: [],
